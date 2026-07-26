@@ -1,18 +1,14 @@
 # Landing Page Assets
 
-## Temporary Hero Image
+## Corrected Visual Retest Assets
 
-`hero-kitchen-temporary.png`
+- `hero-client-card-v2.png` — Smiling homeowner reading a personalized card with a large refrigerator and personal photos/cards visible behind her.
+- `step-1-choose-photo.png` — iPhone displaying personal photo choices.
+- `step-2-create-card.png` — Personalized card preview on an iPhone.
+- `step-3-print-mail.png` — Printed personalized card, envelope, and matching phone preview.
 
-Purpose: Local layout and responsive-preview validation.
+These assets implement the latest Atlas-approved visual direction for June's corrected visual retest.
 
-Status: Temporary — replace with June's approved final hero image before public publication.
+## Superseded Asset
 
-Required final-image direction:
-
-- Elegant
-- Warm
-- Luxury real estate
-- Large refrigerator clearly visible and visually important
-- Suitable for desktop and mobile crops
-- No text, logos, or watermarks
+`hero-kitchen-temporary.png` is retained for history but is no longer referenced by the landing page.

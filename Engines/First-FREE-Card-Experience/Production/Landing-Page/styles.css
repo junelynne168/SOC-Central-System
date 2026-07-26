@@ -167,7 +167,7 @@ h1 {
   width: 100%;
   min-height: 360px;
   object-fit: cover;
-  object-position: 64% center;
+  object-position: 58% center;
 }
 
 .trust-strip {
@@ -222,17 +222,30 @@ h2 {
 }
 
 .step {
-  display: grid;
-  grid-template-columns: 52px 1fr;
-  gap: 18px;
-  min-height: 154px;
-  align-items: start;
-  padding: 28px 24px;
+  overflow: hidden;
   border: 1px solid var(--line);
   background: #fff;
 }
 
+.step-media {
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  background: var(--cream);
+}
+
+.step-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.step-copy {
+  padding: 24px;
+}
+
 .step-number {
+  display: block;
+  margin-bottom: 12px;
   color: var(--gold-dark);
   font-size: 13px;
   font-weight: 700;
@@ -240,7 +253,7 @@ h2 {
 }
 
 .step h3 {
-  margin: -3px 0 0;
+  margin: 0;
   font-size: clamp(25px, 3vw, 34px);
   line-height: 1.2;
 }
@@ -303,11 +316,7 @@ h2 {
   }
 
   .steps {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .step-featured {
-    grid-column: 1 / -1;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -321,11 +330,7 @@ h2 {
   }
 
   .steps {
-    grid-template-columns: 0.82fr 0.82fr 1.36fr;
-  }
-
-  .step-featured {
-    grid-column: auto;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -335,11 +340,22 @@ h2 {
   }
 
   .hero {
-    padding-top: 42px;
+    gap: 22px;
+    padding-top: 28px;
+    padding-bottom: 48px;
   }
 
   h1 {
-    font-size: clamp(39px, 12vw, 58px);
+    max-width: 350px;
+    font-size: clamp(32px, 9.4vw, 38px);
+    line-height: 1.06;
+    letter-spacing: -0.025em;
+  }
+
+  .hero-subheadline {
+    margin: 18px 0 20px;
+    font-size: 16px;
+    line-height: 1.48;
   }
 
   .button {
@@ -347,12 +363,40 @@ h2 {
   }
 
   .hero-image img {
-    min-height: 420px;
-    object-position: 68% center;
+    min-height: 300px;
+    aspect-ratio: 4 / 3;
+    object-position: 55% center;
+  }
+
+  .trust-strip {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    padding: 16px 12px;
   }
 
   .trust-item {
-    justify-content: flex-start;
+    gap: 6px;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .trust-icon {
+    font-size: 17px;
+  }
+
+  .how-it-works {
+    padding-top: 72px;
+    padding-bottom: 88px;
+  }
+
+  .section-heading {
+    margin-bottom: 34px;
+  }
+
+  .step-copy {
+    padding: 22px;
   }
 }
 
