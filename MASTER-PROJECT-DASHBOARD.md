@@ -22,7 +22,7 @@ This is the authoritative project overview and the first document Atlas, Codex, 
 
 **Current Project Health:**
 
-**WAITING REVIEW — A dedicated portrait mobile hero is deployed and Email #2 V1.6 has been sent for the full journey test. Waiting for June's final iPhone hero approval.**
+**WAITING REVIEW — June approved the page and full journey. The final mobile step-heading typography refinement is ready for deployment and review.**
 
 ---
 
@@ -34,7 +34,7 @@ This is the authoritative project overview and the first document Atlas, Codex, 
 | Prospect Intelligence | Approved | Approved | Completed | Personalization-layer design approved. |
 | Decision Engine | Approved | Approved | Completed | Central decision-layer design approved. |
 | First Impression | Approved | Approved | Completed | Email #1 validated. Email #2 V1.3 is Production Approved; Internal Test #3 passed. |
-| First FREE Card Experience | Waiting Review | Approved | Completed | Dedicated portrait mobile hero deployed. Email #2 V1.6 full-journey test sent; waiting for June's final iPhone hero approval. |
+| First FREE Card Experience | Waiting Review | Approved | Completed | Page and full journey approved by June. Mobile step headings refined to keep number and title on one line; waiting for final mobile typography approval. |
 | Customer Journey | Approved | Approved | Completed | Approved seven-step journey preserved. |
 | Prospect-to-Customer Workflow | Approved | Approved | Completed | Master business workflow approved. |
 | Customer Onboarding | Planned | Planned | Planned | Business operations design remains. |
@@ -258,6 +258,15 @@ See `Logs/Decision-Log.md` for the authoritative decision history.
   * Frozen Email #2 V1.3 baseline: Unchanged
   * Landing Page status: **Waiting for June's final iPhone hero approval**
   * Full Journey Test status: **Sent**
+* Mobile Step-Heading Typography Refinement = Implemented
+  * June approved the landing page and full customer journey.
+  * Scope: Only the three mobile step-heading rows.
+  * Mobile display: Number and title remain side by side below 720px.
+  * Step titles: Forced to one line with responsive `clamp(19px, 5.2vw, 22px)` typography.
+  * Step 3 supporting paragraphs: Preserved below the heading row.
+  * Tablet and desktop presentation: Unchanged.
+  * Email send: **No email sent**
+  * Status: **Waiting for June's final mobile typography approval**
 * Approved First Impression Email artifact recovered.
   * `Engines/First-Impression/Approved-First-Impression-Email.md`
   * `Engines/First-Impression/Approved-First-Impression-Email.html`
@@ -271,13 +280,13 @@ These items must be preserved and must not be redesigned without June’s explic
 
 ## 6. Current Focus
 
-Dedicated Mobile Hero Final iPhone Retest
+Mobile Step-Heading Typography Review
 
 ---
 
 ## 7. Next Recommended Task
 
-June completes the Email #2 V1.6 journey on iPhone and gives final hero approval.
+June reviews the three step headings at iPhone width and gives final mobile typography approval.
 
 Atlas should update this single task whenever a design milestone is completed.
 

@@ -23,7 +23,7 @@ Production Governance
 
 ## First FREE Card Landing Page
 
-Status: Waiting for June's final iPhone approval
+Status: Waiting for June's final mobile typography approval
 Production Approved: No
 Local source: `Engines/First-FREE-Card-Experience/Production/Landing-Page/`
 Deployment: GitHub Pages
@@ -52,6 +52,10 @@ Dedicated mobile breakpoint: Below 720px
 Dedicated mobile hero commit: `e55e19d665d7b2af6d386d24b622d4ab8b684c9c`
 Dedicated mobile hero deployment workflow: `30221964756`
 Hosted hero verification: Desktop and mobile hero assets return HTTPS 200
+Journey approval: Approved by June
+Mobile step-heading refinement: Number and title remain in one row below 720px
+Mobile step-title typography: `clamp(19px, 5.2vw, 22px)` with no wrapping
+Email send for typography refinement: No email sent
 
 ## Email #2 V1.4
 
