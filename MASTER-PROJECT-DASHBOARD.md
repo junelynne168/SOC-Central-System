@@ -22,7 +22,7 @@ This is the authoritative project overview and the first document Atlas, Codex, 
 
 **Current Project Health:**
 
-**WAITING REVIEW — June approved the page and full journey. The final mobile step-heading typography refinement is ready for deployment and review.**
+**WAITING REVIEW — Today’s approved SOC work is preserved and deployed. June’s final iPhone typography review is the only remaining landing-page approval gate.**
 
 ---
 
@@ -270,6 +270,16 @@ See `Logs/Decision-Log.md` for the authoritative decision history.
   * Hosted validation: HTML and CSS returned HTTPS 200; all three heading wrappers and both CTA destinations confirmed
   * Email send: **No email sent**
   * Status: **Waiting for June's final mobile typography approval**
+* Session Close — 2026-07-26 = Preserved
+  * Email #1: **Production Approved / Frozen**
+  * Email #2 V1.3: **Production Approved / Frozen / all four links verified**
+  * Email #2 V1.4–V1.6: Journey-test history preserved separately from V1.3
+  * First FREE Card Experience: Landing Page, Sign-Up, Create Card, Send Card, Celebration, and Next Step files preserved
+  * Experience-Driven Design: Atlas Rule #8 and Emotion → Question → Action preserved
+  * Approved landing-page design, First 60 Seconds Experience, Visual Style Guide, Storyboard, responsive implementation, dedicated portrait hero, and one-line mobile step headings preserved
+  * Hosted URL: `https://junelynne168.github.io/SOC-Central-System/`
+  * Session record: `Logs/SESSION-CLOSE-2026-07-26.md`
+  * Remaining gate: **June’s final iPhone typography approval**
 * Approved First Impression Email artifact recovered.
   * `Engines/First-Impression/Approved-First-Impression-Email.md`
   * `Engines/First-Impression/Approved-First-Impression-Email.html`
@@ -283,13 +293,13 @@ These items must be preserved and must not be redesigned without June’s explic
 
 ## 6. Current Focus
 
-Mobile Step-Heading Typography Review
+Session Closed — Final Mobile Typography Approval Pending
 
 ---
 
 ## 7. Next Recommended Task
 
-June reviews the three step headings at iPhone width and gives final mobile typography approval.
+June performs final iPhone typography review. If approved, freeze the Landing Page as Production Approved.
 
 Atlas should update this single task whenever a design milestone is completed.
 

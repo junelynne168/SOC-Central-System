@@ -65,3 +65,19 @@ the design is on the right track.
 The visitor should feel:
 
 > "I'd love to try this."
+
+## Production Preservation
+
+This guide is the authoritative visual standard for the deployed First FREE Card Landing Page.
+
+Preserve:
+
+- Elegant, warm, luxury-real-estate presentation
+- Large emotional photography
+- Dedicated portrait mobile hero with the woman, personalized card, refrigerator, and refrigerator photos/cards visible together
+- Spacious white space and calm visual rhythm
+- Mobile-first responsive behavior
+- One clear action
+- One-line mobile step headings
+
+Do not redesign the approved visual identity. The only open gate is June’s final iPhone typography review.

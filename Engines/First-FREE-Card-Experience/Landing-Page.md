@@ -1,7 +1,7 @@
 # Landing Page V1.0
 
 Status:
-Design Review
+Waiting for June’s Final Mobile Typography Approval
 
 Reference: [First 60 Seconds Experience](First-60-Seconds-Experience.md)
 
@@ -85,6 +85,34 @@ The page must answer these questions:
 2. Why is this different?
 3. Can I really do this?
 4. Let's try it.
+
+## Approved Production Preservation Record
+
+The page and full customer journey are approved by June. Do not redesign approved wording, colors, typography, imagery, CTAs, page sequence, or responsive desktop/mobile experience.
+
+Approved visual identity:
+
+- Elegant
+- Warm
+- Luxury Real Estate
+
+Approved hero message:
+
+> Create a card your client will smile at, keep, and remember—for you.
+
+Preserved production details:
+
+- First 60 Seconds Experience and Storyboard remain the emotional source of truth.
+- Visual Style Guide remains the authoritative visual standard.
+- Desktop/tablet hero and dedicated portrait mobile hero are responsive assets.
+- Mobile portrait hero shows the woman, personalized card, refrigerator, and refrigerator photos/cards together.
+- All three How It Works step numbers and titles remain in one horizontal row below 720px.
+- Both CTAs point to `https://www.SendOutCards.com/u/StayInTouch`.
+- Hosted page: `https://junelynne168.github.io/SOC-Central-System/`.
+
+Remaining approval gate:
+
+June performs the final iPhone typography review. If approved, freeze the Landing Page as Production Approved.
 
 ## Approved Wireframe
 

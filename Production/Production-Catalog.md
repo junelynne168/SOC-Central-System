@@ -7,6 +7,9 @@ This catalog is the authoritative index of every production-approved artifact.
 
 Status: Production Approved
 Frozen: Yes
+Artifact paths:
+- `Engines/First-Impression/Approved-First-Impression-Email.md`
+- `Engines/First-Impression/Approved-First-Impression-Email.html`
 
 ## Email #2
 
@@ -15,6 +18,11 @@ Status: Production Approved
 Frozen: Yes
 Approved by: June
 Internal Test #3: Passed
+All four production links verified: Yes
+Baseline files:
+- `Engines/Second-Impression/Email-2.md`
+- `Engines/Second-Impression/Email-2.html`
+Change rule: Do not modify unless June explicitly approves a future version.
 
 ## Experience-Driven Design
 
@@ -62,7 +70,7 @@ Email send for typography refinement: No email sent
 
 ## Email #2 V1.4
 
-Status: Waiting for June's journey verification
+Status: Superseded Journey Test — History Preserved
 Version: V1.4
 Production Approved: No
 Files:
@@ -73,11 +81,9 @@ Gmail Message ID: `19fa04471c2a5050`
 Gmail Thread ID: `19fa04471c2a5050`
 Timestamp: `2026-07-26T21:11:07`
 
-The frozen Email #2 V1.3 production baseline remains unchanged.
-
 ## Email #2 V1.5
 
-Status: Full Journey Test Sent
+Status: Superseded Journey Test — History Preserved
 Version: V1.5
 Production Approved: No
 Files:
@@ -87,11 +93,11 @@ FREE Card destination: `https://junelynne168.github.io/SOC-Central-System/`
 Gmail Message ID: `19fa062aaa4954f5`
 Gmail Thread ID: `19fa062aaa4954f5`
 Timestamp: `2026-07-26T21:44:08`
-Next gate: June's final iPhone approval
+Outcome: Replaced by V1.6 for the final journey test
 
 ## Email #2 V1.6
 
-Status: Full Journey Test Sent
+Status: Full Journey Approved — Test History Preserved
 Version: V1.6
 Production Approved: No
 Files:
@@ -101,6 +107,46 @@ FREE Card destination: `https://junelynne168.github.io/SOC-Central-System/`
 Gmail Message ID: `19fa06c399ab9f20`
 Gmail Thread ID: `19fa06c399ab9f20`
 Timestamp: `2026-07-26T21:54:34`
-Next gate: June's final iPhone hero approval
+Outcome: Page and full journey approved by June
 
 The frozen Email #2 V1.3 production baseline remains unchanged.
+
+## Session Preservation Snapshot — 2026-07-26
+
+Status: Preserved
+
+Production frozen:
+- Email #1
+- Email #2 V1.3
+
+Testing history preserved:
+- Email #2 V1.4
+- Email #2 V1.5
+- Email #2 V1.6
+
+Experience governance preserved:
+- `Architecture/Experience-Driven-Design.md`
+- Atlas Rule #8
+- Emotion → Question → Action
+
+First FREE Card Experience preserved:
+- Landing Page
+- Sign-Up
+- Create Card
+- Send Card
+- Celebration
+- Next Step
+
+Hosted landing page:
+`https://junelynne168.github.io/SOC-Central-System/`
+
+Landing-page approval state:
+- Page and full journey approved by June
+- Dedicated portrait mobile hero deployed
+- Woman, personalized card, refrigerator, and refrigerator photos/cards preserved
+- Mobile step headings deployed in one-line rows
+- Production Approved: No
+- Remaining gate: June’s final iPhone typography approval
+
+Session record:
+`Logs/SESSION-CLOSE-2026-07-26.md`
