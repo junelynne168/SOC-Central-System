@@ -22,7 +22,7 @@ This is the authoritative project overview and the first document Atlas, Codex, 
 
 **Current Project Health:**
 
-**BLOCKED — The SOC-only private GitHub repository is connected and pushed, but the current GitHub plan does not support Pages for this private repository. June must upgrade private Pages support or explicitly approve public repository visibility.**
+**TESTING — The First FREE Card Landing Page is deployed publicly through GitHub Pages, and Email #2 V1.4 has been sent. Waiting for June's full customer-journey verification.**
 
 ---
 
@@ -34,7 +34,7 @@ This is the authoritative project overview and the first document Atlas, Codex, 
 | Prospect Intelligence | Approved | Approved | Completed | Personalization-layer design approved. |
 | Decision Engine | Approved | Approved | Completed | Central decision-layer design approved. |
 | First Impression | Approved | Approved | Completed | Email #1 validated. Email #2 V1.3 is Production Approved; Internal Test #3 passed. |
-| First FREE Card Experience | Waiting Review | Approved | Blocked | Production-ready landing page implemented locally. Public test deployment is blocked pending a connected GitHub repository and authenticated GitHub Pages access. |
+| First FREE Card Experience | Testing | Approved | Testing | Landing Page deployed for internal testing through GitHub Pages. Email #2 V1.4 sent; waiting for June's journey verification. |
 | Customer Journey | Approved | Approved | Completed | Approved seven-step journey preserved. |
 | Prospect-to-Customer Workflow | Approved | Approved | Completed | Master business workflow approved. |
 | Customer Onboarding | Planned | Planned | Planned | Business operations design remains. |
@@ -163,7 +163,7 @@ See `Logs/Decision-Log.md` for the authoritative decision history.
   * Production baseline HTML: `Engines/Second-Impression/Email-2.html`
   * HTML SHA-256: `60F864C29E2911593770F29BF508E0F99FAD18A4198D2CB935D709EADB4A7C54`
   * Freeze rule: Do not modify either baseline production artifact unless June explicitly approves a future revision.
-* First FREE Card Landing Page deployment = Blocked
+* First FREE Card Landing Page initial deployment attempt (historical) = Blocked
   * Approved local source: `Engines/First-FREE-Card-Experience/Production/Landing-Page/`
   * Requested deployment method: GitHub Pages
   * Hosted landing-page URL: Not created
@@ -182,6 +182,28 @@ See `Logs/Decision-Log.md` for the authoritative decision history.
   * Gmail Thread ID: Not created
   * Send timestamp: Not created
   * Blocker report: `Engines/First-FREE-Card-Experience/Production/Landing-Page/LANDING-PAGE-DEPLOYMENT-BLOCKER.md`
+* First FREE Card Landing Page deployment = Successful
+  * Repository: `https://github.com/junelynne168/SOC-Central-System`
+  * Repository visibility: Public, explicitly approved by June
+  * Deployment method: GitHub Pages workflow
+  * Workflow run: `30220460576`
+  * Hosted URL: `https://junelynne168.github.io/SOC-Central-System/`
+  * HTTPS enforced: Yes
+  * Hosted validation: Page, CSS, and hero image returned HTTPS 200
+  * Responsive validation: Viewport metadata and mobile, tablet, and desktop breakpoints present
+  * Landing-page CTAs: Both point to `https://www.SendOutCards.com/u/StayInTouch`
+  * Status: **Deployed for Internal Testing**
+* Email #2 V1.4 Journey Test = Sent
+  * Gmail timestamp: `2026-07-26T21:11:07`
+  * Gmail Message ID: `19fa04471c2a5050`
+  * Thread ID: `19fa04471c2a5050`
+  * Recipient: `June.Lynne168@gmail.com`
+  * Subject: `Here's the 30-second idea I promised`
+  * Exact HTML: `Engines/Second-Impression/Email-2-V1.4.html`
+  * FREE Card destination: `https://junelynne168.github.io/SOC-Central-System/`
+  * Four HTTPS links present; zero unresolved placeholders
+  * Frozen Email #2 V1.3 baseline: Unchanged
+  * Status: **Waiting for June's journey verification**
 * Approved First Impression Email artifact recovered.
   * `Engines/First-Impression/Approved-First-Impression-Email.md`
   * `Engines/First-Impression/Approved-First-Impression-Email.html`
@@ -195,13 +217,13 @@ These items must be preserved and must not be redesigned without June’s explic
 
 ## 6. Current Focus
 
-First FREE Card Landing Page Deployment Blocker
+First FREE Card Customer Journey Internal Test
 
 ---
 
 ## 7. Next Recommended Task
 
-June upgrades GitHub private-repository Pages support or explicitly approves changing `junelynne168/SOC-Central-System` to Public.
+June verifies the complete Email #2 V1.4 → hosted landing page → SendOutCards customer journey.
 
 Atlas should update this single task whenever a design milestone is completed.
 

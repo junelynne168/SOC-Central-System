@@ -1,8 +1,8 @@
-# Landing Page Deployment Blocker
+# Landing Page Deployment Record
 
 ## Status
 
-Repository connected; blocked at GitHub Pages enablement.
+Resolved — deployed for internal testing.
 
 ## Requested Deployment
 
@@ -29,29 +29,49 @@ GitHub authentication and repository connection are complete:
 5. Default branch: `main`
 6. Initial pushed commit: `9d04768f7645b669f38e8dfcc561b09f708e7e0e`
 
-GitHub Pages cannot be enabled because GitHub returned:
+GitHub Pages was initially blocked while the repository was private because GitHub returned:
 
 `Your current plan does not support GitHub Pages for this repository.`
 
 GitHub API status: `HTTP 422`
 
-The Pages deployment workflow ran and failed because Pages is unavailable for this private repository on the current plan.
+June explicitly approved changing the repository to Public. GitHub Pages was then enabled successfully.
 
-Without a connected repository and authenticated publishing access, Codex cannot create a genuine deployment, obtain a stable HTTPS URL, or verify the hosted page.
+## Deployment
 
-## Work Not Performed
+- Repository visibility: Public
+- Deployment method: GitHub Pages workflow
+- Workflow run: `30220460576`
+- Workflow result: Successful
+- HTTPS enforced: Yes
+- Public landing-page URL:
+  `https://junelynne168.github.io/SOC-Central-System/`
 
-- No public URL was invented.
-- No deployment was created.
-- Email #2 V1.4 was not created because its approved CTA destination depends on the real hosted HTTPS URL.
-- No test email was sent.
-- The frozen Email #2 V1.3 baseline was not modified.
+## Hosted Verification
 
-## Required Unblock
+- Page response: HTTPS 200
+- CSS response: HTTPS 200, `text/css`
+- Hero image response: HTTPS 200, `image/png`
+- Viewport metadata: Present
+- Mobile breakpoint: Present
+- Tablet breakpoint: Present
+- Desktop breakpoint: Present
+- Landing-page CTA count: 2
+- Both CTA destinations:
+  `https://www.SendOutCards.com/u/StayInTouch`
 
-June must choose one:
+## Journey Test
 
-1. Upgrade the GitHub plan so GitHub Pages is supported for the private `junelynne168/SOC-Central-System` repository; or
-2. Explicitly approve changing `junelynne168/SOC-Central-System` from Private to Public so GitHub Pages can be enabled.
+- Email #2 V1.4 created as separate Markdown and HTML files.
+- Frozen Email #2 V1.3 baseline was not modified.
+- FREE Card destination in V1.4:
+  `https://junelynne168.github.io/SOC-Central-System/`
+- Recipient: `June.Lynne168@gmail.com`
+- Subject: `Here's the 30-second idea I promised`
+- Gmail Message ID: `19fa04471c2a5050`
+- Gmail Thread ID: `19fa04471c2a5050`
+- Gmail timestamp: `2026-07-26T21:11:07`
 
-Codex will not change repository visibility without June's explicit approval.
+## Current Status
+
+Waiting for June's full customer-journey verification.
