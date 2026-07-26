@@ -19,6 +19,7 @@ Each scene preserves the approved Emotion → Question → Action design model.
 - Mobile hero story: Woman, personalized card, refrigerator, and refrigerator photos/cards visible together
 - Mobile How It Works headings: Step number and title remain on one line
 - Hosted experience: `https://junelynne168.github.io/SOC-Central-System/`
-- Remaining gate: June’s final iPhone typography approval
+- Approval: Mobile, desktop, hosted page, and CTA journey passed
+- Freeze status: Production Approved; changes require June’s explicit approval of a new version
 
 Do not redesign the approved sequence or content.

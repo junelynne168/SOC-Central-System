@@ -6,11 +6,11 @@ Guide a prospect from clicking "Create My First FREE Card" to successfully sendi
 
 ## Status
 
-Waiting for June’s Final Mobile Typography Approval
+Landing Page Production Approved; Sign-Up Experience Designing Next
 
 ## Preserved Experience Stages
 
-- [Landing Page](Landing-Page.md) — Implemented, deployed, page and full journey approved; final iPhone typography approval pending
+- [Landing Page](Landing-Page.md) — Production Approved, deployed, and frozen
 - [Sign-Up](Sign-Up.md) — Permanent engine stage preserved; detailed experience not yet approved
 - [Create Card](Create-Card.md) — Permanent engine stage preserved; detailed experience not yet approved
 - [Send Card](Send-Card.md) — Permanent engine stage preserved; detailed experience not yet approved
@@ -33,4 +33,6 @@ URL: `https://junelynne168.github.io/SOC-Central-System/`
 
 Production source: `Production/Landing-Page/`
 
-Current gate: June performs the final iPhone typography review. If approved, freeze the Landing Page as Production Approved.
+Production protection: Do not modify `Production/Landing-Page/index.html`, `styles.css`, `script.js`, or `assets/` unless June explicitly approves a new version.
+
+Next task: Design the Sign-Up Experience using Emotion → Question → Action.

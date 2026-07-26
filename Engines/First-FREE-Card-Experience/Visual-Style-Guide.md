@@ -80,4 +80,4 @@ Preserve:
 - One clear action
 - One-line mobile step headings
 
-Do not redesign the approved visual identity. The only open gate is June’s final iPhone typography review.
+Do not redesign the approved visual identity. The deployed landing page is Production Approved and frozen; changes require June’s explicit approval of a new version.
