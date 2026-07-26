@@ -22,7 +22,7 @@ This is the authoritative project overview and the first document Atlas, Codex, 
 
 **Current Project Health:**
 
-**WAITING REVIEW — The mobile hero crop is corrected and a fresh Email #2 V1.5 full-journey test has been sent. Waiting for June's final iPhone approval.**
+**WAITING REVIEW — A dedicated portrait mobile hero is deployed and Email #2 V1.6 has been sent for the full journey test. Waiting for June's final iPhone hero approval.**
 
 ---
 
@@ -34,7 +34,7 @@ This is the authoritative project overview and the first document Atlas, Codex, 
 | Prospect Intelligence | Approved | Approved | Completed | Personalization-layer design approved. |
 | Decision Engine | Approved | Approved | Completed | Central decision-layer design approved. |
 | First Impression | Approved | Approved | Completed | Email #1 validated. Email #2 V1.3 is Production Approved; Internal Test #3 passed. |
-| First FREE Card Experience | Waiting Review | Approved | Completed | Mobile hero crop corrected and redeployed. Email #2 V1.5 full-journey test sent; waiting for June's final iPhone approval. |
+| First FREE Card Experience | Waiting Review | Approved | Completed | Dedicated portrait mobile hero deployed. Email #2 V1.6 full-journey test sent; waiting for June's final iPhone hero approval. |
 | Customer Journey | Approved | Approved | Completed | Approved seven-step journey preserved. |
 | Prospect-to-Customer Workflow | Approved | Approved | Completed | Master business workflow approved. |
 | Customer Onboarding | Planned | Planned | Planned | Business operations design remains. |
@@ -237,6 +237,27 @@ See `Logs/Decision-Log.md` for the authoritative decision history.
   * Frozen Email #2 V1.3 baseline: Unchanged
   * Landing Page status: **Waiting for June's final iPhone approval**
   * Full Journey Test status: **Sent**
+* Dedicated Portrait Mobile Hero and Full Journey Retest = Sent
+  * Hosted URL: `https://junelynne168.github.io/SOC-Central-System/`
+  * Mobile asset: `Engines/First-FREE-Card-Experience/Production/Landing-Page/assets/hero-client-card-mobile.png`
+  * Portrait dimensions: `853 × 1844`
+  * Responsive implementation: Dedicated mobile source below 720px; existing desktop/tablet source preserved
+  * Mobile frame: `clamp(360px, 96vw, 410px)` with `object-fit: cover`
+  * Source commit: `e55e19d665d7b2af6d386d24b622d4ab8b684c9c`
+  * GitHub Pages workflow: `30221964756`
+  * Hosted validation: HTML, CSS, mobile hero, and desktop hero returned HTTPS 200
+  * Landing-page CTAs: Both unchanged at `https://www.SendOutCards.com/u/StayInTouch`
+  * Email version: `Email #2 V1.6`
+  * Exact HTML: `Engines/Second-Impression/Email-2-V1.6.html`
+  * Recipient: `June.Lynne168@gmail.com`
+  * Subject: `Here's the 30-second idea I promised`
+  * Gmail timestamp: `2026-07-26T21:54:34`
+  * Gmail Message ID: `19fa06c399ab9f20`
+  * Gmail Thread ID: `19fa06c399ab9f20`
+  * Four HTTPS links present; zero unresolved placeholders
+  * Frozen Email #2 V1.3 baseline: Unchanged
+  * Landing Page status: **Waiting for June's final iPhone hero approval**
+  * Full Journey Test status: **Sent**
 * Approved First Impression Email artifact recovered.
   * `Engines/First-Impression/Approved-First-Impression-Email.md`
   * `Engines/First-Impression/Approved-First-Impression-Email.html`
@@ -250,13 +271,13 @@ These items must be preserved and must not be redesigned without June’s explic
 
 ## 6. Current Focus
 
-Mobile Hero Full Journey Retest
+Dedicated Mobile Hero Final iPhone Retest
 
 ---
 
 ## 7. Next Recommended Task
 
-June completes the Email #2 V1.5 journey on iPhone and gives final mobile hero approval.
+June completes the Email #2 V1.6 journey on iPhone and gives final hero approval.
 
 Atlas should update this single task whenever a design milestone is completed.
 
