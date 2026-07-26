@@ -84,3 +84,17 @@ Corrected Visual Retest — Waiting for June's approval.
 - Corrected hero and all three step images: HTTPS 200
 - Responsive source validation: 390px, 768px, and 1440px
 - New email sent: No
+
+## Mobile Hero Full Journey Retest
+
+- Mobile crop commit: `216d069a362c014e1ab06d950c421678eb14af8b`
+- GitHub Pages workflow: `30221638944`
+- Workflow result: Successful
+- Mobile frame: `clamp(360px, 96vw, 410px)`
+- Mobile crop: `object-fit: cover`; `object-position: 50% 50%`
+- Hosted page, CSS, and hero image: HTTPS 200
+- Email test version: V1.5
+- Gmail Message ID: `19fa062aaa4954f5`
+- Gmail Thread ID: `19fa062aaa4954f5`
+- Gmail timestamp: `2026-07-26T21:44:08`
+- Status: Waiting for June's final iPhone approval
