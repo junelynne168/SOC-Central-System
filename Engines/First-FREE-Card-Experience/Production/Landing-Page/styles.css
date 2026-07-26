@@ -366,7 +366,7 @@ h2 {
     height: clamp(360px, 96vw, 410px);
     min-height: 0;
     object-fit: cover;
-    object-position: 50% 50%;
+    object-position: 50% 28%;
   }
 
   .trust-strip {

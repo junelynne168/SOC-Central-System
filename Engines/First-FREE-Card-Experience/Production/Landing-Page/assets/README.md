@@ -3,6 +3,7 @@
 ## Corrected Visual Retest Assets
 
 - `hero-client-card-v2.png` — Smiling homeowner reading a personalized card with a large refrigerator and personal photos/cards visible behind her.
+- `hero-client-card-mobile.png` — Dedicated portrait iPhone hero with the homeowner's full face, complete personalized card, refrigerator, and refrigerator photos/cards composed together.
 - `step-1-choose-photo.png` — iPhone displaying personal photo choices.
 - `step-2-create-card.png` — Personalized card preview on an iPhone.
 - `step-3-print-mail.png` — Printed personalized card, envelope, and matching phone preview.
