@@ -23,7 +23,7 @@ Production Governance
 
 ## First FREE Card Landing Page
 
-Status: Deployed for Internal Testing
+Status: Corrected Visual Retest — Waiting for June's approval
 Production Approved: No
 Local source: `Engines/First-FREE-Card-Experience/Production/Landing-Page/`
 Deployment: GitHub Pages
@@ -33,6 +33,15 @@ Visibility: Public
 Approved repository scope: Only `C:\AI-Headquarters-Workspace\Projects\Business\SOC-Central-System`
 Repository URL: `https://github.com/junelynne168/SOC-Central-System`
 Branch: `main`
+Corrected deployment workflow: `30221098984`
+Corrected source commit: `142c8da59998ac728c59e0ddbac1c552e0f174a5`
+Corrected assets:
+- `assets/hero-client-card-v2.png`
+- `assets/step-1-choose-photo.png`
+- `assets/step-2-create-card.png`
+- `assets/step-3-print-mail.png`
+Hosted verification: HTML, CSS, and all four images return HTTPS 200
+CTA destination: `https://www.SendOutCards.com/u/StayInTouch`
 
 ## Email #2 V1.4
 

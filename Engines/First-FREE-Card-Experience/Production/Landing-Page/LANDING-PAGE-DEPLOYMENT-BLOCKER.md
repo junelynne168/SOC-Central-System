@@ -74,4 +74,13 @@ June explicitly approved changing the repository to Public. GitHub Pages was the
 
 ## Current Status
 
-Waiting for June's full customer-journey verification.
+Corrected Visual Retest — Waiting for June's approval.
+
+## Corrected Visual Deployment
+
+- Source commit: `142c8da59998ac728c59e0ddbac1c552e0f174a5`
+- GitHub Pages workflow: `30221098984`
+- Workflow result: Successful
+- Corrected hero and all three step images: HTTPS 200
+- Responsive source validation: 390px, 768px, and 1440px
+- New email sent: No

@@ -22,7 +22,7 @@ This is the authoritative project overview and the first document Atlas, Codex, 
 
 **Current Project Health:**
 
-**TESTING — The First FREE Card Landing Page is deployed publicly through GitHub Pages, and Email #2 V1.4 has been sent. Waiting for June's full customer-journey verification.**
+**WAITING REVIEW — The hosted First FREE Card Landing Page has been corrected to the latest Atlas-approved visual direction and redeployed. Waiting for June's approval.**
 
 ---
 
@@ -34,7 +34,7 @@ This is the authoritative project overview and the first document Atlas, Codex, 
 | Prospect Intelligence | Approved | Approved | Completed | Personalization-layer design approved. |
 | Decision Engine | Approved | Approved | Completed | Central decision-layer design approved. |
 | First Impression | Approved | Approved | Completed | Email #1 validated. Email #2 V1.3 is Production Approved; Internal Test #3 passed. |
-| First FREE Card Experience | Testing | Approved | Testing | Landing Page deployed for internal testing through GitHub Pages. Email #2 V1.4 sent; waiting for June's journey verification. |
+| First FREE Card Experience | Waiting Review | Approved | Completed | Landing Page corrected and redeployed for visual retest. Waiting for June's approval; no new email sent. |
 | Customer Journey | Approved | Approved | Completed | Approved seven-step journey preserved. |
 | Prospect-to-Customer Workflow | Approved | Approved | Completed | Master business workflow approved. |
 | Customer Onboarding | Planned | Planned | Planned | Business operations design remains. |
@@ -204,6 +204,18 @@ See `Logs/Decision-Log.md` for the authoritative decision history.
   * Four HTTPS links present; zero unresolved placeholders
   * Frozen Email #2 V1.3 baseline: Unchanged
   * Status: **Waiting for June's journey verification**
+* First FREE Card Landing Page Corrected Visual Retest = Deployed
+  * Hosted URL: `https://junelynne168.github.io/SOC-Central-System/`
+  * GitHub Pages workflow run: `30221098984`
+  * Source commit: `142c8da59998ac728c59e0ddbac1c552e0f174a5`
+  * Hero: Smiling homeowner reading a personalized card; refrigerator and personal photos/cards remain visually important
+  * Step images: Visible for Choose a Photo, Create Your Card, and We Print & Mail for You
+  * Mobile correction: Headline reduced to a maximum of 38px; CTA and emotional hero image appear early in the mobile flow
+  * Responsive source checks: 390px, 768px, and 1440px rules confirmed
+  * Hosted validation: HTML, CSS, hero, and all three step images returned HTTPS 200
+  * CTA validation: Both buttons still point to `https://www.SendOutCards.com/u/StayInTouch`
+  * Email send: **No new email sent**
+  * Status: **Waiting for June's approval**
 * Approved First Impression Email artifact recovered.
   * `Engines/First-Impression/Approved-First-Impression-Email.md`
   * `Engines/First-Impression/Approved-First-Impression-Email.html`
@@ -217,13 +229,13 @@ These items must be preserved and must not be redesigned without June’s explic
 
 ## 6. Current Focus
 
-First FREE Card Customer Journey Internal Test
+Landing Page Corrected Visual Retest
 
 ---
 
 ## 7. Next Recommended Task
 
-June verifies the complete Email #2 V1.4 → hosted landing page → SendOutCards customer journey.
+June reviews the corrected hosted landing page on mobile and desktop and approves the visual experience.
 
 Atlas should update this single task whenever a design milestone is completed.
 
