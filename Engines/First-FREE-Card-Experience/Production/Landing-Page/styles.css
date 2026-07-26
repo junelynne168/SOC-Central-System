@@ -363,9 +363,10 @@ h2 {
   }
 
   .hero-image img {
-    min-height: 300px;
-    aspect-ratio: 4 / 3;
-    object-position: 55% center;
+    height: clamp(360px, 96vw, 410px);
+    min-height: 0;
+    object-fit: cover;
+    object-position: 50% 50%;
   }
 
   .trust-strip {
