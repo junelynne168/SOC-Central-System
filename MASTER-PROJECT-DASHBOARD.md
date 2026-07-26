@@ -265,6 +265,9 @@ See `Logs/Decision-Log.md` for the authoritative decision history.
   * Step titles: Forced to one line with responsive `clamp(19px, 5.2vw, 22px)` typography.
   * Step 3 supporting paragraphs: Preserved below the heading row.
   * Tablet and desktop presentation: Unchanged.
+  * Source commit: `074bd823c0b8a040f003f7e1e1c5d01cd6e797a1`
+  * GitHub Pages workflow: `30222468632` — Success
+  * Hosted validation: HTML and CSS returned HTTPS 200; all three heading wrappers and both CTA destinations confirmed
   * Email send: **No email sent**
   * Status: **Waiting for June's final mobile typography approval**
 * Approved First Impression Email artifact recovered.

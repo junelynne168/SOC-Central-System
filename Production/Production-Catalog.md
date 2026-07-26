@@ -55,6 +55,9 @@ Hosted hero verification: Desktop and mobile hero assets return HTTPS 200
 Journey approval: Approved by June
 Mobile step-heading refinement: Number and title remain in one row below 720px
 Mobile step-title typography: `clamp(19px, 5.2vw, 22px)` with no wrapping
+Mobile step-heading source commit: `074bd823c0b8a040f003f7e1e1c5d01cd6e797a1`
+Mobile step-heading deployment workflow: `30222468632`
+Mobile step-heading hosted verification: HTML and CSS return HTTPS 200
 Email send for typography refinement: No email sent
 
 ## Email #2 V1.4
