@@ -23,20 +23,22 @@ Production Governance
 
 ## First FREE Card Landing Page
 
-Status: Deployment Blocked
+Status: Repository Connected — Deployment Blocked
 Production Approved: No
 Local source: `Engines/First-FREE-Card-Experience/Production/Landing-Page/`
 Requested deployment: GitHub Pages
 Hosted URL: Not created
-Blocker: GitHub CLI is installed, but the saved `junelynne168` token is invalid and repository access returns HTTP 401
+Blocker: The current GitHub plan does not support Pages for this private repository (HTTP 422)
 Approved repository: `junelynne168/SOC-Central-System`
 Visibility: Private
 Approved repository scope: Only `C:\AI-Headquarters-Workspace\Projects\Business\SOC-Central-System`
+Repository URL: `https://github.com/junelynne168/SOC-Central-System`
+Branch: `main`
 
 ## Email #2 V1.4
 
 Status: Not Created
 Production Approved: No
-Reason: A genuine hosted landing-page HTTPS URL is required before the test version can be created.
+Reason: A genuine hosted landing-page HTTPS URL is required before the test version can be created; GitHub Pages is blocked by the private-repository plan limitation.
 
 The frozen Email #2 V1.3 production baseline remains unchanged.

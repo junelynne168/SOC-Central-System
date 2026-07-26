@@ -22,7 +22,7 @@ This is the authoritative project overview and the first document Atlas, Codex, 
 
 **Current Project Health:**
 
-**BLOCKED — GitHub CLI is installed and the repository choices are approved, but GitHub rejects the saved `junelynne168` token as invalid. June must reauthorize GitHub CLI before deployment can proceed.**
+**BLOCKED — The SOC-only private GitHub repository is connected and pushed, but the current GitHub plan does not support Pages for this private repository. June must upgrade private Pages support or explicitly approve public repository visibility.**
 
 ---
 
@@ -167,9 +167,13 @@ See `Logs/Decision-Log.md` for the authoritative decision history.
   * Approved local source: `Engines/First-FREE-Card-Experience/Production/Landing-Page/`
   * Requested deployment method: GitHub Pages
   * Hosted landing-page URL: Not created
-  * Blocker: GitHub CLI reports the active `junelynne168` token is invalid; repository access returns HTTP 401
+  * GitHub authentication: Valid
   * Approved repository: `junelynne168/SOC-Central-System` (Private)
   * Approved scope: Only `C:\AI-Headquarters-Workspace\Projects\Business\SOC-Central-System`
+  * Repository URL: `https://github.com/junelynne168/SOC-Central-System`
+  * Branch: `main`
+  * Initial pushed commit: `9d04768f7645b669f38e8dfcc561b09f708e7e0e`
+  * Pages result: Blocked — current plan does not support GitHub Pages for this private repository (HTTP 422)
   * Repository scope risk: The existing Git root is the entire `C:\AI-Headquarters-Workspace`; it contains unrelated and uncommitted work and must not be published as the SOC repository without explicit approval
   * Local path validation: `styles.css`, `script.js`, and `assets/hero-kitchen-temporary.png` use valid relative paths and exist
   * Landing-page CTA validation: Both buttons point to `https://www.SendOutCards.com/u/StayInTouch`
@@ -197,7 +201,7 @@ First FREE Card Landing Page Deployment Blocker
 
 ## 7. Next Recommended Task
 
-June reauthorizes GitHub CLI with `& "C:\Program Files\GitHub CLI\gh.exe" auth login -h github.com -p https -w`, verifies `gh auth status`, and tells Codex it succeeded.
+June upgrades GitHub private-repository Pages support or explicitly approves changing `junelynne168/SOC-Central-System` to Public.
 
 Atlas should update this single task whenever a design milestone is completed.
 
